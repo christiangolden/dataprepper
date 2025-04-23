@@ -1,0 +1,116 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+.venv/
+venv/
+ENV/
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# Python test cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# VSCode
+.vscode/
+
+# Node
+node_modules/
+frontend/build/
+frontend/dist/
+frontend/.next/
+frontend/.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+.Trash-*
+.fuse_hidden*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test
+coverage/
+*.cover
+*.py,cover
+.hypothesis/
+
+# Misc
+*.swp
+*.swo
+
+# Data files
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.sav
+*.dta
+*.sas7bdat
+*.rds
+*.rdata
+*.arff
+*.jsonl
+*.pkl
+*.pickle
+*.zip
+*.gz
+*.tar
+*.tar.gz
+*.7z
+*.bz2
+*.xz
+
+# Editor/IDE
+.idea/
+*.iml
+.spyderproject
+.spyproject
+
+# Environment files
+frontend/.env
+backend/.env
+.envrc
+.python-version
+
+# Frontend artifacts
+frontend/coverage/
+frontend/*.log
+
+# Backup files
+*~
+*.bak
+*.tmp
+
+# System files
+Icon?
+
+# Ignore test output
+backend/app/tests/__pycache__/
+backend/app/__pycache__/
+
+# Ignore frontend test output
+frontend/coverage/
+frontend/*.log
+
+# Ignore lock files (optional, if you want to only use package-lock.json or yarn.lock)
+yarn.lock
+pnpm-lock.yaml
