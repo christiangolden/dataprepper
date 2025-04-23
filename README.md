@@ -1,4 +1,4 @@
-# Preprocessor Dashboard
+# DataPrepper
 
 An interactive dashboard for data preprocessing, visualization, and exploratory analysis. Built with a Python FastAPI backend and a React frontend, this tool streamlines the process of cleaning, exploring, and preparing data for machine learning workflows.
 

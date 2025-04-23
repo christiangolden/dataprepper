@@ -5,9 +5,9 @@ from .crud import preview_csv, impute_missing, encode_categorical, scale_numeric
 from .models import PreviewResponse
 
 logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger("preprocessor")
+logger = logging.getLogger("dataprepper")
 
-app = FastAPI(title="Dataset Preprocessor API")
+app = FastAPI(title="DataPrepper API")
 
 # Allow local frontend access
 app.add_middleware(
