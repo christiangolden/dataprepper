@@ -6,9 +6,9 @@ An interactive dashboard for data preprocessing, visualization, and exploratory 
 
 ![Screenshot of DataPrepper](docs/screenshot.png)
 
-<video src="docs/screencast.webm" controls width="600">Your browser does not support the video tag.</video>
+![Demo of DataPrepper](docs/screencast.gif)
 
-*Above: Screenshot and demo video of DataPrepper in action.*
+*Above: Screenshot and demo GIF of DataPrepper in action.*
 
 ## Features
 
